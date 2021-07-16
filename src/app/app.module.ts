@@ -12,6 +12,7 @@ import { CoursesComponent } from './courses/courses.component';
 import { StrikethroughDirective } from './strikethrough.directive';
 import { DateCountPipe } from './date-count.pipe';
 import { GoalFormComponent } from './goal-form/goal-form.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { GoalFormComponent } from './goal-form/goal-form.component';
     CoursesComponent,
     StrikethroughDirective,
     DateCountPipe,
-    GoalFormComponent
+    GoalFormComponent,
+    FooterComponent
     
   ],
   imports: [

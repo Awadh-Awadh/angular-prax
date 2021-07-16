@@ -17,5 +17,6 @@ export class GoalFormComponent implements OnInit {
 
   addGoal(){
     this.addNewGoal.emit(this.newGoal)
+
   }
 }
